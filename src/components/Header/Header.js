@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 
 function Header() {
@@ -11,13 +12,19 @@ function Header() {
                 <ul className="listeMenu">
 
                     <li className="liensNav">
+                        <Link className="lien" to="/">
                         <img src="{}" alt="logo twitch" className="logo"/> 
+                        </Link>
                     </li>
                     <li className="liensNav">
+                    <Link className="lien" to="/">
                         Top Games
+                        </Link>
                     </li>
                     <li className="liensNav">
+                    <Link className="lien" to="/top-streams">
                         Top Streams
+                        </Link>
                     </li>
 
                     <li className="liensNav"> 
